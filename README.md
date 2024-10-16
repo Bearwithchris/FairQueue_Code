@@ -1,5 +1,7 @@
 The codes are adapted from: 1) ITI-GEN: https://github.com/humansensinglab/ITI-GEN; 2) DAAM: https://github.com/castorini/daam
 
+Please find the additional necessary files ./models , ./iti_gen and ./ckpts files at [link](https://drive.google.com/drive/folders/1iBizW8YhmvDUo6ChTIhN9f_M1EnIH-hs)
+
 ## FairQueue
 - ./ckpts contain the saved ITI-GEN embeddings listed in the main paper. Note that the "basis_final_embed_29.pt" are the final embeddings utilized in sample generation (this is the same as the orignal base code).
 
@@ -7,8 +9,6 @@ The codes are adapted from: 1) ITI-GEN: https://github.com/humansensinglab/ITI-G
 ```
 Python generation_Mixing.py --attr-list <tSA> --prompt-path <Location of Prompt path ending with 'basis_final_embed_29.pt'>
 ```
-
-Please find the ./models , ./iti_gen and ./ckpts files at [link](https://drive.google.com/drive/folders/1iBizW8YhmvDUo6ChTIhN9f_M1EnIH-hs)
 
 ## Cross-attention Analysis
 - Put the folder './ckpts' under the project folder
